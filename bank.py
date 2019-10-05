@@ -31,7 +31,7 @@ for i in (0,1,2):
         if billkey == "date":
             dateTimeDifference = (billvalue[i] - CurrentDate).days;
             if dateTimeDifference < 7:
-                print("Bill is due in less than 5 days. Please make the payment soon")
+                print("Bill is due in less than 7 days. Please make the payment soon")
             else:
                 print("Due date in ", dateTimeDifference, " days");
             time.sleep(1)
